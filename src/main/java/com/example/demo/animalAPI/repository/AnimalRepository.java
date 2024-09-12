@@ -1,5 +1,8 @@
 package com.example.demo.animalAPI.repository;
 
-public class AnimalRepository {
+import org.springframework.stereotype.Repository;
 
+@Repository
+public class AnimalRepository {
+//nakagawa
 }
