@@ -1,7 +1,5 @@
 package com.example.demo.sampleAPI.repository;
 
-import java.io.IOException;
-
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import org.springframework.web.client.RestTemplate;
@@ -12,7 +10,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 @Repository
 public class SampleAPIRepository {
 
-	public Animals[] getAnimals() throws IOException {
+	public Animals[] getAnimals() {
 		//APIのURL
 		String url = "https://wsaz0e6z45.execute-api.ap-northeast-1.amazonaws.com/prod/animalsAPI";
 		//リクエスト送信の為にインスタンス生成
